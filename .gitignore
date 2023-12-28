@@ -1,0 +1,7 @@
+# .gitignore file
+
+# Credential file
+config.json
+
+# mp3 files
+*.mp3
