@@ -18,7 +18,7 @@ creds = config["credentials"]
 sense.authenticate(creds["username"], creds["password"])
 
 print("Connecting to Nanoleaf...")
-nl = Nanoleaf("192.168.1.52") #This is where you change your IP to match your own Nanoleaf Canvas/Hexagon Lights
+nl = Nanoleaf("0.0.0.0") #This is where you change your IP to match your own Nanoleaf Canvas/Hexagon Lights
 twin = NanoleafDigitalTwin(nl)
 
 # Set baseline colors for Digital Twin
